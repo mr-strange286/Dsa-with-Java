@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AnyToAny {
+public class AnyBaseToAnyBase {
     public static int DecimalToAny(int n, int b)
     {
         int i=0;

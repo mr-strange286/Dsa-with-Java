@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class DecimalToAny {
-    public static int DecimalToAny(int n, int b)
+public class AnyBaseToDecimal {
+    public static int AnyToDecimal(int n, int b)
     {
         int i=0;
         int ans=0;
         while(n>0)
         {
-            ans+=(n%b)*(int)(Math.pow(10,i));
-            n=n/b;
+            ans+=(n%10)*(int)(Math.pow(b,i));
+            n=n/10;
             i++;
         }
         
@@ -19,7 +19,7 @@ public class DecimalToAny {
         int n = sc.nextInt();
         int b = sc.nextInt();
         
-        System.out.print(DecimalToAny(n,b)); 
+        System.out.print(AnyToDecimal(n,b)); 
         
     }
 }

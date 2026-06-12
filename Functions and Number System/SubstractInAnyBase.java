@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SubstractOfAny {
+public class SubstractInAnyBase {
     public static int SubstractOfAny(int b, int n1, int n2)
     {
         int ans=0;

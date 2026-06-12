@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumOfAny {
+public class SumInAnyBase {
     public static int SumOfAny(int b, int n1, int n2)
     {
         int carry=0;
