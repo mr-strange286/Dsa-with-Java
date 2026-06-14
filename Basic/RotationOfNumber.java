@@ -27,5 +27,6 @@ public class RotationOfNumber {
         int ans = rem * mul + quo;
 
         System.out.println(ans);
+        sc.close();
     }
 }

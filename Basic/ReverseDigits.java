@@ -10,6 +10,7 @@ public class ReverseDigits
             n=n/10;
             
         }
+        sc.close();
         
     }
 }

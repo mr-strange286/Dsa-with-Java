@@ -14,5 +14,6 @@ public class InverseOfNumber
 	        i++;
 	    }
 		System.out.println(ans);
+		sc.close();
 	}
 }

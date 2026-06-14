@@ -12,5 +12,6 @@ public class benjaminBulbs {
                 System.out.println(i*i);
             }
         }
+        sc.close();
     }
 }

@@ -52,5 +52,6 @@ public class Pattern18 {
 
             System.out.println();
         }
+        sc.close();
     }
 }

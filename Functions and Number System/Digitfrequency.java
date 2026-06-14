@@ -22,6 +22,6 @@ public class Digitfrequency {
         int d = sc.nextInt();
         
         System.out.print(digitfrequency(n,d)); 
-        
+        sc.close();
     }
 }

@@ -19,6 +19,6 @@ public class Pattern8
 	        }
 	        System.out.println();
 	    }
-		
+		sc.close();
 	}
 }

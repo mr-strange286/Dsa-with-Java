@@ -17,5 +17,6 @@ public class PrimeFactorization
 	    {
 	        System.out.println(n);
 	    }
+		sc.close();
 	}
 }

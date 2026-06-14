@@ -10,6 +10,6 @@ public class Pattern14 {
         {
             System.out.println(n + " * " + i + " = " + n*i);
         }
-        
+        sc.close();
     }
 }

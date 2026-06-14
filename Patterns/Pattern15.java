@@ -40,5 +40,6 @@ public class Pattern15
 	        }
 	        System.out.println();
 	    }
+		sc.close();
 	}
 }

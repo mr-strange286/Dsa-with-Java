@@ -11,5 +11,6 @@ public class NumberOfDigits
             n=n/10;
         }
         System.out.println(nod);
+        sc.close();
     }
 }

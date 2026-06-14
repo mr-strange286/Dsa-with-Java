@@ -20,5 +20,6 @@ public class LcmAndHcf {
         int lcm = (num1 * num2) / gcd;
 
         System.out.println("GCD = " + gcd + " and LCM = " + lcm);
+        sc.close();
     }
 }

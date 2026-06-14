@@ -29,6 +29,6 @@ public class NoOfPrimes
                 System.out.print(i + " ");
             }
         }
-        
+        sc.close();
     }
 }

@@ -12,5 +12,6 @@ public class PythogoreanTriplet {
         int sum = a * a + b * b + c * c - max * max;
 
         System.out.println(max * max == sum);
+        sc.close();
     }
 }

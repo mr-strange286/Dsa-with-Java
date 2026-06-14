@@ -32,5 +32,6 @@ public class Pattern16
 			
 	        System.out.println();
 	    }
+		sc.close();
 	}
 }

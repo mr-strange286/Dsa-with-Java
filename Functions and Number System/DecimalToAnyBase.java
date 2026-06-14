@@ -20,6 +20,6 @@ public class DecimalToAnyBase {
         int b = sc.nextInt();
         
         System.out.print(DecimalToAny(n,b)); 
-        
+        sc.close();
     }
 }

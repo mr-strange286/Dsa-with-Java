@@ -25,6 +25,6 @@ public class SumInAnyBase {
         int n2 = sc.nextInt();
         
         System.out.print(SumOfAny(b,n1,n2)); 
-        
+        sc.close();
     }
 }

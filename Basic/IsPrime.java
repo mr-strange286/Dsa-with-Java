@@ -26,6 +26,8 @@ public class IsPrime {
             else{
                 System.out.println("not a Prime");
             }
+
         }
+        sc.close();
     }
 }

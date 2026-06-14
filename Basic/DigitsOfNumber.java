@@ -21,5 +21,6 @@ public class DigitsOfNumber
             System.out.println(n/(int)(Math.pow(10,i)));
             n=n%(int)(Math.pow(10,i));
         }
+        sc.close();
     }
 }

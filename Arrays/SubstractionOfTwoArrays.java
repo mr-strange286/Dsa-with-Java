@@ -56,5 +56,6 @@ public class SubstractionOfTwoArrays {
         for (int p = start; p < ans.length; p++) {
             System.out.println(ans[p]);
         }
+        sc.close();
     }
 }

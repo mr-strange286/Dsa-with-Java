@@ -23,5 +23,6 @@ public class IndexInArray {
         }
 
         System.out.print(index);
+        sc.close();
     }
 }

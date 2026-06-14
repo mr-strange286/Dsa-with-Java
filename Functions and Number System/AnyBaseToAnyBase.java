@@ -39,6 +39,6 @@ public class AnyBaseToAnyBase {
         int b2 = sc.nextInt();
         
         System.out.print(AnyToAny(n,b1,b2)); 
-        
+        sc.close();
     }
 }
