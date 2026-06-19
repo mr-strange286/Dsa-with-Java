@@ -1,16 +1,17 @@
+
 import java.util.Scanner;
-public class NumberOfDigits
-{
-    public static void main (String[] args) {
+public class NumberOfDigits{
+    @SuppressWarnings("ConvertToTryWithResources")
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        System.out.print("Enter the Number: ");
+        int num = sc.nextInt();
         int nod=0;
-        while(n>0)
-        {
+        while(num>0){
             nod++;
-            n=n/10;
+            num/=10;
         }
-        System.out.println(nod);
+        System.out.print("Number of Digits in N: " + nod);
         sc.close();
     }
 }
