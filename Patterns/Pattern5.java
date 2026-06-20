@@ -1,30 +1,21 @@
 package Patterns;
 import java.util.Scanner;
-
-public class Pattern5 {
-    public static void main(String[] args) {
+public class Pattern5{
+    @SuppressWarnings("ConvertToTryWithResources")
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-
-        int n = sc.nextInt();
-
-        for (int i = 1; i <= n; i++) {
-            int sp, st;
-
-            if (i <= (n + 1) / 2) {
-                sp = (n + 1) / 2 - i;
-                st = 2 * i - 1;
-            } else {
-                sp = i - (n + 1) / 2;
-                st = 2 * (n - i + 1) - 1;
-            }
-
-            for (int j = 1; j <= sp; j++)
-                System.out.print("  ");
-
-            for (int j = 1; j <= st; j++)
-                System.out.print("* ");
-
-            System.out.println();
+        System.out.print("Enter the number of rows: ");
+        int rows = sc.nextInt();
+        System.out.println("Patter 5: ");
+        int mid = (rows+1)/2;
+        StringBuilder row = new StringBuilder(2*rows);
+        for(int i = 1 ; i <= rows ; i++){
+            row.setLength(0);
+            int spaces = Math.abs(mid - i);
+            int stars = rows - 2 * spaces;
+            for(int j = 1 ; j <= spaces ; j++) row.append("  ");
+            for(int j = 1 ; j <= stars ; j++) row.append("* ");
+            System.out.println(row);
         }
         sc.close();
     }
